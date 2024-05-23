@@ -4,7 +4,8 @@ import ollama
 
 # Define the directory path where your .txt files are stored
 # Update this path to the top-level directory you want to process
-directory_path = '/Users/czook/Github/deya_chatbot/vids'
+directory_path = os.getcwd()
+print(directory_path)
 
 # Function to call Ollama API using the library
 prompt = '''
