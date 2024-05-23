@@ -1,3 +1,4 @@
 youtube-transcript-api
 ollama
-virtualenv
+beautifulsoup4 
+requests
