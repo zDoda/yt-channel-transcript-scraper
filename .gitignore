@@ -1,0 +1,48 @@
+# Python byte-compiled files
+__pycache__/
+
+# Python compiled .pyc files
+*.pyc
+
+# Compiled bytecode (.so, .pyd, etc.)
+*.so
+*.pyd
+
+# Wheel archives (dist-packages)
+*/*.whl
+*/*.egg
+
+# Egg archives (dist-packages)
+*/*.egg
+
+# Byte-compiled .pyo files
+*.pyo
+
+# Installed packages and their metadata
+*/__init__.pyc
+*/__pycache__/
+
+# Compiled SSL transport files
+ssltransport.cpython-312.py
+ssl_.cpython-312.py
+
+# YouTube Transcript API's compiled code
+youtube_transcript_api/__pycache__/
+youtube_transcript_api/_api.cpython-312.py
+youtube_transcript_api/_cli.cpython-312.py
+youtube_transcript_api/_errors.cpython-312.py
+youtube_transcript_api/_html_unescaping.cpython-312.py
+youtube_transcript_api/_settings.cpython-312.py
+youtube_transcript_api/_transcripts.cpython-312.py
+youtube_transcript_api/formatters.cpython-312.py
+
+# Test files (and their byte-code)
+test/__init__.pyc
+test/test_*.cpython-312.py
+
+# Compiled asset files for YouTube Transcript API tests
+assets/__init__.cpython-312.py
+
+venv/
+
+vids/
