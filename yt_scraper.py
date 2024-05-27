@@ -85,7 +85,7 @@ def transcript_summary(videoIds: list):
 
         # Get the title of the HTML document
         title = soup.title.string
-        print(title[:-9])
+        print(title[:-10])
         with open(f'vids/{title[:-10]}.txt', 'w') as file:
             file.write(' '.join(transcript_arr))
 
